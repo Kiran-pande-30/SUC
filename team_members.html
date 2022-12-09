@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
 
-    <style>
-        .form1, .form2, .form3, .form4, .form5{
-            display: none;
-        }
-    </style>
-
-</head>
-<body>
-    <!-- <div class="form_wrapper">
+		<style>
+			.form1,
+			.form2,
+			.form3,
+			.form4,
+			.form5 {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="form_wrapper">
         <div class="form_container">
             <div class="title_container">
                 <H2>Team Leader Information</H2>
@@ -26,7 +29,7 @@
                     <label for="name" id="label-name" name="mail" required> Team Leader Email:   <label>
                     <input type="text">
                 </div> -->
-                <!-- <div class="input_field">
+		<!-- <div class="input_field">
                     <label for="" id="label-name">No. of Team Members </label></label>
                     <select name="" id="test">
                     
@@ -95,94 +98,88 @@
                     </div>
 
                 </div> -->
-                <!-- <input class="button" type="submit" value="Register" onclick="openQuestion()"/>
+		<!-- <input class="button" type="submit" value="Register" onclick="openQuestion()"/>
             </form>
         </div>
         </div>
     </div> -->
 
+		<div class="form_wrapper">
+			<div class="form_container">
+				<div class="title_container">
+					<h2>Team Information</h2>
+				</div>
+				<div class="">
+					<form action="/choice.html">
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="team_name"
+								required
+							>
+								No of Team Members
+							</label>
+							<select name="" id="">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+						</div>
+						<input class="button" type="submit" value="Register" />
+					</form>
+				</div>
+			</div>
+		</div>
 
+		<script>
+			function openQuestion() {
+				location.replace("./Questionaire.html");
+			}
 
-    <div class="form_wrapper">
-        <div class="form_container">
-            <div class="title_container">
-                <H2>Team Information</H2>
-            </div>
-        <div class="">
-            <form action="">
-                <div class="input_field"> 
-                    <label for="name" id="label-name" name="team_name" required> No of Team Members <label>
-                        <select name="" id="">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                </div>
-                
+			// var test = document.getElementById('test');
+			// var form1 = document.getElementById('form1');
+			// var form2 = document.getElementById('form2');
+			// var form3 = document.getElementById('form3');
+			// var form4 = document.getElementById('form4');
+			// var form5 = document.getElementById('form5');
 
-                  <input class="button" type="submit" value="Register" onclick="openQuestion()"/>
-            </form>
-        </div>
-        </div>
-    </div>
+			// function show() {
 
+			//     if(test.value==='A'){
+			//         form1.style.display="block";
+			//         form2.style.display="none";
+			//         form2.style.display="none";
+			//         form2.style.display="none";
+			//         form2.style.display="none";
+			//     } else if(test.value==='B'){
+			//         form2.style.display="block";
+			//         form1.style.display="none";
+			//         form3.style.display="none";
+			//         form4.style.display="none";
+			//         form5.style.display="none";
+			//     } else if(test.value==='3'){
+			//         form3.style.display="block";
+			//         form1.style.display="none";
+			//         form2.style.display="none";
+			//         form4.style.display="none";
+			//         form5.style.display="none";
+			//     } else if(test.value==='4'){
+			//         form4.style.display="block";
+			//         form1.style.display="none";
+			//         form2.style.display="none";
+			//         form3.style.display="none";
+			//         form5.style.display="none";
+			//     } else if(test.value==='5'){
+			//         form5.style.display="block";
+			//         form1.style.display="none";
+			//         form2.style.display="none";
+			//         form3.style.display="none";
+			//         form4.style.display="none";
+			//     }
 
-
-    <SCRipt>
-
-        function openQuestion(){
-            location.replace("./Questionaire.html");
-            
-        }
-
-
-        // var test = document.getElementById('test');
-        // var form1 = document.getElementById('form1');
-        // var form2 = document.getElementById('form2');
-        // var form3 = document.getElementById('form3');
-        // var form4 = document.getElementById('form4');
-        // var form5 = document.getElementById('form5');
-
-        // function show() {
-
-        //     if(test.value==='A'){
-        //         form1.style.display="block";
-        //         form2.style.display="none";
-        //         form2.style.display="none";
-        //         form2.style.display="none";
-        //         form2.style.display="none";
-        //     } else if(test.value==='B'){
-        //         form2.style.display="block";
-        //         form1.style.display="none";
-        //         form3.style.display="none";
-        //         form4.style.display="none";
-        //         form5.style.display="none";
-        //     } else if(test.value==='3'){
-        //         form3.style.display="block";
-        //         form1.style.display="none";
-        //         form2.style.display="none";
-        //         form4.style.display="none";
-        //         form5.style.display="none";
-        //     } else if(test.value==='4'){
-        //         form4.style.display="block";
-        //         form1.style.display="none";
-        //         form2.style.display="none";
-        //         form3.style.display="none";
-        //         form5.style.display="none";
-        //     } else if(test.value==='5'){
-        //         form5.style.display="block";
-        //         form1.style.display="none";
-        //         form2.style.display="none";
-        //         form3.style.display="none";
-        //         form4.style.display="none";
-        //     } 
-
-        // }
-
-    </SCRipt>
-
-</body>
+			// }
+		</script>
+	</body>
 </html>
-    
-    

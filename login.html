@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="form_wrapper">
-        <div class="form_container">
-            <div class="title_container">
-                <H2>Login</H2>
-            </div>
-        <div class="">
-            <form action="">
-                <div class="input_field"> 
-                    <label for="name" id="label-name" name="team_name" required> Team Leader Email: <label>
-                    <input type="text">
-                </div>
-                <div class="input_field">
-                    <label for="name" id="label-name" name="password" required> Password: </label>
-                    <input type="password" name="password"  required />
-                  </div>
-                  <div class="input_field">
-                    <label for="name" id="label-name" name="c-password" required> Confirm Password:</label>
-                    <input type="password" name="password"  required />
-                  </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="form_wrapper">
+			<div class="form_container">
+				<div class="title_container">
+					<h2>Login</h2>
+				</div>
+				<div class="">
+					<form action="/team_members.html">
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="team_name"
+								required
+							>
+								Team Leader Email:
+							</label>
+							<input type="text" />
+						</div>
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="password"
+								required
+							>
+								Password:
+							</label>
+							<input type="password" name="password" required />
+						</div>
 
-                  <input class="button" type="submit" value="Register" onclick="openteam_members()"/>
-            </form>
-        </div>
-        </div>
-    </div>
-    
-    <script>
-            function openteam_members(){
-                location.replace("./team_members.html")
-            }
-    </script>
-</body>
+						<input class="button" type="submit" value="Login" />
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function openteam_members() {
+				location.replace("./team_members.html");
+			}
+		</script>
+	</body>
 </html>

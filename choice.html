@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+
+		<style>
+			.form1,
+			.form2,
+			.form3,
+			.form4,
+			.form5 {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="form_wrapper">
+			<div class="form_container">
+				<div class="title_container">
+					<h2>Progress</h2>
+				</div>
+				<div class="">
+					<button onclick="openWorking()">Working</button>
+					<button onclick="openIdeation()">Ideation</button>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function openWorking() {
+				location.replace("./Working.html");
+			}
+			function openIdeation() {
+				location.replace("./Ideation.html");
+			}
+
+			// var test = document.getElementById('test');
+			// var form1 = document.getElementById('form1');
+			// var form2 = document.getElementById('form2');
+			// var form3 = document.getElementById('form3');
+			// var form4 = document.getElementById('form4');
+			// var form5 = document.getElementById('form5');
+
+			// function show() {
+
+			//     if(test.value==='A'){
+			//         form1.style.display="block";
+			//         form2.style.display="none";
+			//         form2.style.display="none";
+			//         form2.style.display="none";
+			//         form2.style.display="none";
+			//     } else if(test.value==='B'){
+			//         form2.style.display="block";
+			//         form1.style.display="none";
+			//         form3.style.display="none";
+			//         form4.style.display="none";
+			//         form5.style.display="none";
+			//     } else if(test.value==='3'){
+			//         form3.style.display="block";
+			//         form1.style.display="none";
+			//         form2.style.display="none";
+			//         form4.style.display="none";
+			//         form5.style.display="none";
+			//     } else if(test.value==='4'){
+			//         form4.style.display="block";
+			//         form1.style.display="none";
+			//         form2.style.display="none";
+			//         form3.style.display="none";
+			//         form5.style.display="none";
+			//     } else if(test.value==='5'){
+			//         form5.style.display="block";
+			//         form1.style.display="none";
+			//         form2.style.display="none";
+			//         form3.style.display="none";
+			//         form4.style.display="none";
+			//     }
+
+			// }
+		</script>
+	</body>
+</html>

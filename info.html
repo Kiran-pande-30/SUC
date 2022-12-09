@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>INFO</title>
-</head>
-<body>
-    <div class="form_wrapper">
-        <div class="form_container">
-            <div class="title_container">
-                <H2>Registration</H2>
-            </div>
-        <div class="">
-            <form action="">
-                <div class="input_field"> 
-                    <label for="name" id="label-name" name="team_name" required> Team Name:  <label>
-                    <input type="text">
-                </div>
-                <div class="input_field"> 
-                    <label for="name" id="label-name" name="leader_name" required> Leader Name:  <label>
-                    <input type="text">
-                </div>
-                <div class="input_field"> 
-                    <label for="name" id="label-name" name="contact" required> Contact Number: <label>
-                    <input type="text">
-                </div>
-                <div class="input_field">
-                    <label for="name" id="label-name" name="l-email" required> Leader Email:</label>
-                    <input type="email" name="email"  required />
-                  </div>
-                  <div class="input_field">
-                    <label for="name" id="label-name" name="password" required> Password: </label>
-                    <input type="password" name="password"  required />
-                  </div>
-                  <div class="input_field">
-                    <label for="name" id="label-name" name="c-password" required> Confirm Password:</label>
-                    <input type="password" name="password"  required />
-                  </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>INFO</title>
+	</head>
+	<body>
+		<div class="form_wrapper">
+			<div class="form_container">
+				<div class="title_container">
+					<h2>Registration</h2>
+				</div>
+				<div class="">
+					<form action="">
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="team_name"
+								required
+							>
+								Team Name:
+							</label>
+							<input type="text" />
+						</div>
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="leader_name"
+								required
+							>
+								Leader Name:
+							</label>
+							<input type="text" />
+						</div>
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="contact"
+								required
+							>
+								Contact Number:
+							</label>
+							<input type="text" />
+						</div>
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="l-email"
+								required
+							>
+								Leader Email:</label
+							>
+							<input type="email" name="email" required />
+						</div>
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="password"
+								required
+							>
+								Password:
+							</label>
+							<input type="password" name="password" required />
+						</div>
+						<div class="input_field">
+							<label
+								for="name"
+								id="label-name"
+								name="c-password"
+								required
+							>
+								Confirm Password:</label
+							>
+							<input type="password" name="password" required />
+						</div>
 
-                  <input class="button" type="submit" value="Register" onclick="openLogin()"/>
-            </form>
-        </div>
-        </div>
-    </div>
+						<input
+							class="button"
+							type="submit"
+							value="Register"
+							onclick="openLogin()"
+						/>
+					</form>
+				</div>
+			</div>
+		</div>
 
-    <script>
-        function openLogin(){
-            location.replace("./login.html");
-        }
-    </script>
-</body>
+		<script>
+			function openLogin() {
+				location.replace("./login.html");
+			}
+		</script>
+	</body>
 </html>
