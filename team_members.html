@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+        .form1, .form2, .form3, .form4, .form5{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <H2>Team Leader Information</H2>
+            </div>
+        <div class="">
+            <form action="">
+                <div class="input_field"> 
+                    <label for="name" id="label-name" name="mail" required> Team Leader Email:   <label>
+                    <input type="text">
+                </div> -->
+                <!-- <div class="input_field">
+                    <label for="" id="label-name">No. of Team Members </label></label>
+                    <select name="" id="test">
+                    
+                        <option value="A">1</option>
+                        <option value="B">2</option>
+                        <option value="C">3</option>
+                        <option value="D">4</option>
+                        <option value="E">5</option>
+                    </select>
+                    <button onclick="show()">Next</button>
+
+                    <div class="form1" id="form1">
+                        <input type="text" name="" id="" placeholder="Name">Team Member 1<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                    </div>
+                    <div class="form2" id="form2">
+                        <input type="text" name="" id="" placeholder="Name">Team Member 1<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 2<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                    </div>
+                    <div class="form3" id="form3">
+                        <input type="text" name="" id="" placeholder="Name">Team Member 1<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 2<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 3<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                    </div>
+                    <div class="form4" id="form4">
+                        <input type="text" name="" id="" placeholder="Name">Team Member 1<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 2<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 3<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 4<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                    </div>
+                    <div class="form5" id="form5">
+                        <input type="text" name="" id="" placeholder="Name">Team Member 1<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 2<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 3<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 4<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                        <input type="text" name="" id="" placeholder="Name">Team Member 5<br>
+                        <input type="email" name="" id="">Email <br>
+                        <input type="text" name="" id="">Contact No. <br>
+                    </div>
+
+                </div> -->
+                <!-- <input class="button" type="submit" value="Register" onclick="openQuestion()"/>
+            </form>
+        </div>
+        </div>
+    </div> -->
+
+
+
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <H2>Team Information</H2>
+            </div>
+        <div class="">
+            <form action="">
+                <div class="input_field"> 
+                    <label for="name" id="label-name" name="team_name" required> No of Team Members <label>
+                        <select name="" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                </div>
+                
+
+                  <input class="button" type="submit" value="Register" onclick="openQuestion()"/>
+            </form>
+        </div>
+        </div>
+    </div>
+
+
+
+    <SCRipt>
+
+        function openQuestion(){
+            location.replace("./Questionaire.html");
+            
+        }
+
+
+        // var test = document.getElementById('test');
+        // var form1 = document.getElementById('form1');
+        // var form2 = document.getElementById('form2');
+        // var form3 = document.getElementById('form3');
+        // var form4 = document.getElementById('form4');
+        // var form5 = document.getElementById('form5');
+
+        // function show() {
+
+        //     if(test.value==='A'){
+        //         form1.style.display="block";
+        //         form2.style.display="none";
+        //         form2.style.display="none";
+        //         form2.style.display="none";
+        //         form2.style.display="none";
+        //     } else if(test.value==='B'){
+        //         form2.style.display="block";
+        //         form1.style.display="none";
+        //         form3.style.display="none";
+        //         form4.style.display="none";
+        //         form5.style.display="none";
+        //     } else if(test.value==='3'){
+        //         form3.style.display="block";
+        //         form1.style.display="none";
+        //         form2.style.display="none";
+        //         form4.style.display="none";
+        //         form5.style.display="none";
+        //     } else if(test.value==='4'){
+        //         form4.style.display="block";
+        //         form1.style.display="none";
+        //         form2.style.display="none";
+        //         form3.style.display="none";
+        //         form5.style.display="none";
+        //     } else if(test.value==='5'){
+        //         form5.style.display="block";
+        //         form1.style.display="none";
+        //         form2.style.display="none";
+        //         form3.style.display="none";
+        //         form4.style.display="none";
+        //     } 
+
+        // }
+
+    </SCRipt>
+
+</body>
+</html>
+    
+    
